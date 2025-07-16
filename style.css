@@ -1,0 +1,81 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f2f5; /* Light grey background */
+  text-align: center;
+  margin-top: 50px;
+}
+/* Custom styles to mimic document appearance */
+.document-container {
+    /*max-width: 800px;*/ /* A4-like width */
+    margin: 2rem auto;
+    background-color: #ffffff;
+    padding: 2.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem; /* Rounded corners for the document */
+}
+.section-title {
+    font-weight: 600; /* Semi-bold */
+    font-size: 1.25rem; /* Larger font size for titles */
+    color: #1f2937; /* Darker text */
+    margin-bottom: 0.75rem;
+    border-bottom: 2px solid #e5e7eb; /* Subtle line under titles */
+    padding-bottom: 0.25rem;
+}
+.text-muted {
+    color: #6b7280; /* Grey text for less emphasis */
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust this value for more or less spacing */
+}
+
+.short-facts {
+  text-align: left;
+}
+
+@media (min-width: 640px) {
+  .short-facts {
+    text-align: right;
+  }
+}
+
+.short-facts p {
+  color: #374151; /* Tailwind's gray-700 */
+  margin: 4px 0;
+}
+
+.picture {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (min-width: 640px) {
+  .short-facts {
+    text-align: right;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+th {
+  background-color: #f4f4f4;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+h1 {
+  color: #333;
+}
