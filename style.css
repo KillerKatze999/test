@@ -66,6 +66,7 @@ body {
 
 table {
   width: 100%;
+  min-width: 400px; /* ensures horizontal scroll if needed */
   border-collapse: collapse;
   margin-top: 20px;
   margin-left: auto;
